@@ -2,9 +2,9 @@ const mongoose = require("mongoose");
 
 const adminSchema = new mongoose.Schema(
     {
-        companyName: { type: String, required: true, trim: true, index: true },
+        companyName: { type: String, required: true, trim: true },
         name: { type: String, required: true },
-        email: { type: String, required: true, unique: true, lowercase: true, index: true },
+        email: { type: String, required: true, unique: true, lowercase: true },
         phone: { type: String, required: true, unique: true, index: true },
         password: { type: String, required: true },
 

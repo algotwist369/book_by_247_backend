@@ -12,7 +12,7 @@ const cluster = require('cluster');
 const os = require('os');
 
 const numCPUs = process.env.NODE_ENV === 'production' ? os.cpus().length : Math.min(os.cpus().length, 2);
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 9004;
 
 if (cluster.isPrimary) {
     console.log(`🚀 Master process ${process.pid} is running`);

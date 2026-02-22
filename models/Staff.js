@@ -36,7 +36,7 @@ const staffSchema = new mongoose.Schema(
         // 🔹 Basic Info
         name: { type: String, required: true, trim: true },
         email: { type: String, lowercase: true, trim: true },
-        phone: { type: String, required: true, trim: true, index: true },
+        phone: { type: String, required: true, trim: true },
         address: { type: String },
 
         role: {
