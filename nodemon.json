@@ -1,0 +1,15 @@
+{
+    "watch": [
+        "."
+    ],
+    "ext": "js,json",
+    "ignore": [
+        ".wwebjs_auth",
+        ".wwebjs_cache",
+        "uploads",
+        "node_modules",
+        "*.log",
+        "data"
+    ],
+    "delay": "2500"
+}
