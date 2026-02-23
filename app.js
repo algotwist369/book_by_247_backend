@@ -77,8 +77,6 @@ app.use(cors({
     maxAge: 86400 // Cache preflight for 24 hours
 }));
 
-// Ensure preflight OPTIONS requests are always handled
-app.options('*', cors());
 
 
 // Security headers
