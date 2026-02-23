@@ -18,7 +18,7 @@ router.get("/public/nearby", businessController.getBusinessesNearby);
 
 // Advanced Search (Location + Text)
 // Query params: lat, lng, q, category, radius, sort, page, limit
-router.get("/public/spa", businessController.searchBusinesses);
+router.get("/public/explore", businessController.searchBusinesses);
 
 // Business Autocomplete - Search businesses in database
 // Query params: input (required), limit (optional, default 10)

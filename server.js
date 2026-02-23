@@ -1,6 +1,5 @@
 // Load environment variables reliably and quietly
 require("dotenv").config({ quiet: true });
-
 const http = require("http");
 const { connectDB } = require("./config/database");
 const { initializeSocket } = require("./config/socket");
